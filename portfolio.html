@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Addi Zaro Photography - 𝙿𝚘𝚛𝚝𝚛𝚊𝚒𝚝 𝙿𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚎𝚛 </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="tiah eskildsen">
+  <meta name="keywords" content="photography, portraits, photoshoot">
+  <meta name="description" content="Bootstrap 5 Photography Landing Page using a HTML CSS Template">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="homepage">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor"
+          d="M11 3.5h1M4.5.5h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4Zm3 10a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor"
+          d="M7.5 14.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Zm0 0v-8a2 2 0 0 1 2-2h.5m-5 4h5" />
+      </symbol>
+ 
+    
+      
+      <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-cycle" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path
+            d="M22 12c0 6-4.39 10-9.806 10C7.792 22 4.24 19.665 3 16m-1-4C2 6 6.39 2 11.806 2C16.209 2 19.76 4.335 21 8" />
+          <path d="m7 17l-4-1l-1 4M17 7l4 1l1-4" />
+        </g>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="link" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-left" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M17 11H9.41l3.3-3.29a1 1 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33a1 1 0 0 0 0 .76a1 1 0 0 0 .21.33l5 5a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42L9.41 13H17a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="play" viewBox="0 0 24 24">
+        <g fill="none" fill-rule="evenodd">
+          <path
+            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+          <path fill="currentColor"
+            d="M5.669 4.76a1.469 1.469 0 0 1 2.04-1.177c1.062.454 3.442 1.533 6.462 3.276c3.021 1.744 5.146 3.267 6.069 3.958c.788.591.79 1.763.001 2.356c-.914.687-3.013 2.19-6.07 3.956c-3.06 1.766-5.412 2.832-6.464 3.28c-.906.387-1.92-.2-2.038-1.177c-.138-1.142-.396-3.735-.396-7.237c0-3.5.257-6.092.396-7.235Z" />
+        </g>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="category" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+      </symbol>
+     
+      <symbol xmlns="http://www.w3.org/2000/svg" id="plus" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="minus" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M19 11H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2Z" />
+      </symbol>
+      
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-outline" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+          d="M7.5 9.804L5.337 11l.413-2.533L4 6.674l2.418-.37L7.5 4l1.082 2.304l2.418.37l-1.75 1.793L9.663 11L7.5 9.804Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-solid" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+     
+      <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+    </defs>
+  </svg>
+  
+
+  <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+    <div class="container-fluid">
+      <div class="row justify-content-between align-items-center w-100">
+        
+
+        
+        <div class="col-auto">
+          <a class="navbar-brand text-white" href="index.html">
+            <img src="images/main_logo.svg" alt="logo" width="150">
+          </a>
+        </div>
+         <div class="col-auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownShop" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Packages</a>
+                  <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownShop">
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Family</a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Newborn</a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Individual Portraits</a>
+                    </li>
+              
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownBlog" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                  <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownBlog">
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Family Portraits</a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Senior Photos</a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Newborn Sessions</a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="dropdown-item item-anchor">Holidays</a>
+                    </li>
+                   
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 col-lg-auto">
+          <ul class="list-unstyled d-flex m-0">
+            <li class="d-none d-lg-block">
+            <li>
+                  <a href="https://www.facebook.com/addizarophotography/about" class="text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+            <li>|</li>
+                <li>
+                  <a href="https://www.instagram.com/addizarophotography/" class="text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <section id="billboard" class="bg-light py-5">
+    <div class="container">
+     
+      
+    <section class="blog py-5">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
+   
+        <a href="portfolio.html" class="btn-link">Gallery</a>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/banner-image-1.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+             
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Couple Packages</a>
+              </h5>
+              <p>These photos always come out so beautiful and full of love. Let me catch your love on camera today!</p>
+            </div>
+          </article>
+        </div>
+        
+       <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/familyimage_1.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+            
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Family Packages</a>
+              </h5>
+              <p>Bring the whole family in and let's capture those laughs on camera! </p>
+            </div>
+          </article>
+        </div>
+        
+        <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/newbornimage_1.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+            
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Newborn Packages</a>
+              </h5>
+              <p>These might just be the most precious moments and getting to capture them on camera is what brings the beauty in these images to life!</p>
+            </div>
+          </article>
+        </div>
+
+        
+        <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/soloimage_1.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+            
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Portrait</a>
+              </h5>
+              <p>Whether it's a Professional Headshot for work or Classic Portraits let me create bright beautiful images you can cherish all your life. </p>
+            </div>
+          </article>
+        </div>
+
+         
+        <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/seniorsession_1.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+            
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Senior Packages</a>
+              </h5>
+              <p>I won't let you miss these beautiful once in a lifetime moments, and you won't regret it. </p>
+            </div>
+          </article>
+        </div>
+
+         
+        <div class="col-md-4">
+          <article class="post-item">
+            <div class="post-image">
+              <a href="index.html">
+                <img src="images/familyimage_2.png" alt="image" class="post-grid-image img-fluid">
+              </a>
+            </div>
+            <div class="post-content d-flex flex-wrap gap-2 my-3">
+            
+              <h5 class="post-title text-uppercase">
+                <a href="index.html">Bundles Packages</a>
+              </h5>
+              <p>Let's talk bundles! </p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+ 
+ 
+
+  <section class="collection bg-light position-relative py-5">
+    <div class="container">
+      <div class="row">
+        <div class="title-xlarge text-uppercase txt-fx domino">About Section</div>
+        <div class="collection-item d-flex flex-wrap my-5">
+          <div class="col-md-6 column-container">
+            <div class="image-holder">
+              <img src="images/addi_headshot_1.png" alt="aboutme" class="product-image img-fluid">
+            </div>
+          </div>
+        
+          <div class="col-md-6 column-container bg-white">
+             
+            <div class="collection-content p-5 m-0 m-md-5">
+               <h4 class="element-title text-uppercase">𝚃𝚑𝚎 𝙻𝚊𝚍𝚢 𝙱𝚎𝚑𝚒𝚗𝚍 𝚝𝚑𝚎 𝙻𝚎𝚗𝚜!</h4>
+              <p>I'm 𝙰𝚍𝚍𝚒, 𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚌𝚊𝚙𝚝𝚞𝚛𝚎 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚋𝚎𝚊𝚞𝚝𝚢 𝚘𝚏 𝚕𝚒𝚏𝚎 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚝𝚑𝚎 𝚊𝚛𝚝 𝚘𝚏 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢. 𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚖𝚢 𝚌𝚘𝚛𝚗𝚎𝚛 𝚘𝚏 𝚝𝚑𝚎 𝚜𝚘𝚌𝚒𝚊𝚕 𝚖𝚎𝚍𝚒𝚊 𝚠𝚘𝚛𝚕𝚍!     
+              <br>𝙸 𝚠𝚊𝚜 𝚋𝚘𝚛𝚗 𝚊𝚗𝚍 𝚛𝚊𝚒𝚜𝚎𝚍 𝚒𝚗 𝚆𝚊𝚕𝚕𝚊 𝚆𝚊𝚕𝚕𝚊, 𝚆𝙰. 𝙸 𝚕𝚎𝚏𝚝 𝚝𝚑𝚎 𝚍𝚎𝚗𝚝𝚊𝚕 𝚏𝚒𝚎𝚕𝚍 𝚝𝚘 𝚙𝚞𝚛𝚜𝚞𝚎 𝚖𝚢 𝚙𝚊𝚜𝚜𝚒𝚘𝚗 𝚏𝚘𝚛 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚊𝚜 𝚠𝚎𝚕𝚕 𝚊𝚜 𝚜𝚝𝚊𝚢 𝚑𝚘𝚖𝚎 𝚊𝚗𝚍 𝚛𝚊𝚒𝚜𝚎 𝚖𝚢 𝚋𝚊𝚋𝚒𝚎𝚜. 𝙸 𝚏𝚎𝚕𝚕 𝚒𝚗 𝚕𝚘𝚟𝚎 𝚠𝚒𝚝𝚑 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚠𝚑𝚒𝚕𝚎 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚒𝚗𝚐 𝚖𝚢 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚊𝚗𝚍 𝚍𝚎𝚌𝚒𝚍𝚎𝚍 𝚝𝚘 𝚖𝚊𝚔𝚎 𝚒𝚝 𝚊 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜!      
+                <br>​𝙸 𝚊𝚖 𝚖𝚊𝚛𝚛𝚒𝚎𝚍 𝚝𝚘 𝚖𝚢 𝚋𝚎𝚜𝚝 𝚏𝚛𝚒𝚎𝚗𝚍 𝚊𝚗𝚍 𝚠𝚎 𝚑𝚊𝚟𝚎 𝚑𝚊𝚟𝚎 𝚝𝚠𝚘 𝚋𝚎𝚊𝚞𝚝𝚒𝚏𝚞𝚕 𝚋𝚘𝚢𝚜, 𝚠𝚑𝚘 𝚔𝚎𝚎𝚙 𝚞𝚜 𝚘𝚗 𝚘𝚞𝚛 𝚝𝚘𝚎𝚜! 𝚆𝚑𝚎𝚗 𝙸 𝚊𝚖 𝚗𝚘𝚝 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚒𝚗𝚐 𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚞𝚜𝚞𝚜𝚊𝚕𝚕𝚢 𝚏𝚒𝚗𝚍 𝚖𝚎 𝚙𝚕𝚊𝚢𝚒𝚗𝚐 𝚠𝚒𝚝𝚑 𝚖𝚢 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚘𝚛 𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝚝𝚒𝚖𝚎 𝚠𝚒𝚝𝚑 𝚖𝚢 𝚑𝚞𝚜𝚋𝚊𝚗𝚍. 𝙸 𝚌𝚘𝚗𝚜𝚒𝚍𝚎𝚛 𝚖𝚢𝚜𝚎𝚕𝚏 𝚝𝚘 𝚋𝚎 𝚊 𝚖𝚒𝚗𝚒𝚖𝚊𝚕𝚒𝚜𝚝 𝚊𝚗𝚍 𝙸 𝚕𝚘𝚟𝚎 𝚊𝚗𝚢𝚝𝚑𝚒𝚗𝚐 𝚊𝚗𝚍 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐 𝙳𝙸𝚈! 𝙼𝚢 𝚑𝚞𝚜𝚋𝚊𝚗𝚍 𝚊𝚗𝚍 𝙸 𝚛𝚎𝚌𝚎𝚗𝚝𝚕𝚢 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍 𝚛𝚎𝚖𝚘𝚍𝚎𝚕𝚒𝚗𝚐 𝚘𝚞𝚛 𝚏𝚒𝚛𝚜𝚝 𝚎𝚟𝚎𝚛 𝚑𝚘𝚖𝚎, 𝚒𝚗 𝚠𝚑𝚒𝚌𝚑 𝚖𝚢 𝚑𝚞𝚜𝚋𝚊𝚗𝚍 𝚊𝚗𝚍 𝙸 𝚍𝚒𝚍 𝚖𝚘𝚜𝚝 𝚘𝚏 𝚝𝚑𝚎 𝚠𝚘𝚛𝚔 𝚘𝚞𝚛𝚜𝚎𝚕𝚟𝚎𝚜.      
+                <br>​𝙸 𝚊𝚖 𝚎𝚡𝚌𝚒𝚝𝚎𝚍 𝚝𝚘 𝚜𝚑𝚊𝚛𝚎 𝚖𝚢 𝚙𝚊𝚜𝚜𝚒𝚘𝚗 𝚏𝚘𝚛 𝚙𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞 𝚊𝚗𝚍 𝚕𝚘𝚘𝚔 𝚏𝚘𝚛𝚠𝚊𝚛𝚍 𝚝𝚘 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞!
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <section class="features py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
+          <div class="py-5">
+            <h4 class="element-title text-capitalize my-3">Book An Appointment</h4>
+            <p>Book an Hour and let's chat about it!</p>
+          </div>
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="300">
+          <div class="py-5">
+            <h4 class="element-title text-capitalize my-3">Get a Quote</h4>
+            <p>Send me your thoughts and I'll send you a quote.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
+          <div class="py-5">
+            <h4 class="element-title text-capitalize my-3">Policy + Forms</h4>
+            <p>Here is an active link to download the Policy & Forms</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="900">
+          <div class="py-5">
+            <h4 class="element-title text-capitalize my-3">Socials</h4>
+            <p>Follow my Social Media's for the latest Specials!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="testimonials py-5 bg-light">
+    <div class="section-header text-center mt-5">
+      <h3 class="section-title">WE LOVE A GOOD COMPLIMENT</h3>
+    </div>
+    <div class="swiper testimonial-swiper overflow-hidden my-5">
+      <div class="swiper-wrapper d-flex">
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <blockquote>
+              <p>“Thank you Addi Zaro Photgraphy for the amazing photos of my Noah and his cousins!”</p>
+              <div class="review-title text-uppercase">Harley Edwards</div>
+            </blockquote>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <blockquote>
+              <p>“Great photographer but even better she makes you feel so comfortable!"</p>
+              <div class="review-title text-uppercase">Tiah Eskildsen</div>
+            </blockquote>
+          </div>
+        </div>
+        
+        
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
+  </section>
+
+  <section id="related-products" class="related-products product-carousel py-5 position-relative overflow-hidden">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
+     
+
+
+
+  <section class="instagram position-relative">
+    <div class="d-flex justify-content-center w-100 position-absolute bottom-0 z-1">
+      <a href="https://www.instagram.com/addizarophotography/" class="btn btn-dark px-5">Follow me on Instagram</a>
+    </div>
+    <div class="row g-0">
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item1.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item2.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item3.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item4.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item5.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="insta-item">
+          <a href="https://www.instagram.com/addizarophotography/" target="_blank">
+            <img src="images/insta_item6.png" alt="instagram" class="insta-image img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="mt-5">
+    <div class="container">
+      <div class="row d-flex flex-wrap justify-content-between py-5">
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-menu footer-menu-001">
+            <div class="footer-intro mb-4">
+              <a href="index.html">
+                <img src="images/main_logo.svg" alt="logo" width="80%">
+              </a>
+            </div>
+            <p>Your style, your story. </p>
+            <div class="social-links">
+              <ul class="list-unstyled d-flex flex-wrap gap-3">
+                <li>
+                  <a href="https://www.facebook.com/addizarophotography/about" class="text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+               
+             
+                <li>
+                  <a href="https://www.instagram.com/addizarophotography/" class="text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-menu footer-menu-004 border-animation-left" alt="contact">
+            <h5 class="widget-title text-uppercase mb-4">Contact Us</h5>
+            <p>Looking to book your next photo session? 
+              <br>Let's chat! <a href="mailto:addizarophotography@outlook.com"
+                class="item-anchor">addizarophotography@outlook.com</a></p>
+            <p>Do you need support? 
+              <br>Give us a call. <a href="tel:+1 509 520 6193" class="item-anchor">+1 509 520-6193</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+          <div class="col-md-12 text-end">
+            <p>Copyright 2023 Addi Zaro Photography© . All rights reserved. 
+              <br>Design by <a href="https://simpleandstatic.com"
+                target="_blank">SimpleandStatic</a> Distribution By <a href="https://simpleandstatic.com"
+              target="blank">𝚂𝚒𝚖𝚙𝚕𝚎 & 𝚂𝚝𝚊𝚝𝚒𝚌</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/SmoothScroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
